@@ -1,7 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Commissioner&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Commissioner&display=swap');
 
+.g-root h1 {
+    font-family: var(--g-text-header-font-family);
+    font-weight: 700;
+}
 
+.g-root h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--g-text-header-font-family);
+    font-weight: 600;
+}
 .g-root {
     --g-border-radius-xs: 10px;
     --g-border-radius-s: 12px;
@@ -104,4 +116,33 @@
     --g-color-base-selection: var(--g-color-private-brand-150);
     --g-color-base-selection-hover: var(--g-color-private-brand-200);
     --g-color-line-brand: var(--g-color-private-brand-600-solid);
+}
+
+.dc-subscribe__variants-action {
+  color: var(--g-color-text-dark-primary);
+}
+
+.dc-subscribe__variants-action:hover {
+    color: var(--g-color-text-dark-primary);
+}
+
+a.dc-breadcrumbs__text.dc-breadcrumbs__text_link {
+  outline: none;
+  color: var(--yc-color-text-link);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a.dc-breadcrumbs__text.dc-breadcrumbs__text_link:hover {
+    color: var(--g-color-text-link-hover);
+}
+
+.dc-toc-item__text {
+    font-family: var(--g-font-family-sans);
+    font-size: var(--g-text-body-1-font-size);
+    font-weight: var(--g-text-body-font-weight);
+}
+
+.dc-sidebar .dc-toc-item__text {
+    font-size: var(--g-text-body-2-font-size);
 }

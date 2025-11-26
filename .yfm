@@ -1,4 +1,5 @@
 allowHTML: true
+allowCustomResources: true
 lang: 'ru'
 langs: ['ru']
 resources:
