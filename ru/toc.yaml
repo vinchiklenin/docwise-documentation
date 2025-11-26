@@ -1,4 +1,4 @@
-title: Шаблон Документации
+title: Документация
 href: index.yaml
 
 analytics:
@@ -13,22 +13,27 @@ navigation:
   logo:
     url: "https://github.ru/"
     dark:
-      icon: "https://storage.yandexcloud.net/diplodoc-www-assets/logo/ddos-logo-dark.svg"
+      icon: "./_assets/images/Logo-dark.svg"
     light:
-      icon: "https://storage.yandexcloud.net/diplodoc-www-assets/navigation/diplodoc-logo.svg"
+      icon: "./_assets/images/Logo-light.svg"
   header:
-    leftItems:
-      - text: "Оглавление"
-        type: "link"
-        url: "../ru"
-      - text: "Помощь"
-        type: "link"
-        url: "./help"
     rightItems:
       - type: 'controls'
 
 items:
+  - name: О сервисе
+    href: about.md
+  - name: Работа с интерфейсом
+    include:
+      path: gui/toc.yaml
+      mode: link
+  - name: Работа с CLI
+    include:
+      path: gui/toc.yaml
+      mode: link
+  - name: API
+    include:
+      path: gui/toc.yaml
+      mode: link
   - name: Помощь
     href: help.md
-  - name: Правила
-    href: rules.md

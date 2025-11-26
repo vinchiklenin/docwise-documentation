@@ -5,4 +5,13 @@ langs: ['ru']
 resources:
   style:
     - _assets/style/custom.css
+search:
+  provider: local
+  tolerance: 2
+  confidense: phrased
+docs-viewer:
+  project-name: Документация сервиса Доквайс
+  logo-options:
+    title: Доквайс
+
 

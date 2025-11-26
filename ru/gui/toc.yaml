@@ -1,0 +1,9 @@
+title: Работа с интерфейсом
+href: index.yaml
+items:
+  - name: Сканирование
+    href: skan.md
+  - name: Правка результатов
+    href: edit.md
+  - name: Сохранение результатов
+    href: save.md

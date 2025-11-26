@@ -11,9 +11,12 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: var(--g-text-header-font-family);
+    font-family: var(--g-text-header-font-family) !important;
     font-weight: 600;
 }
+p {font-family: var(--g-text-header-font-family) !important;}
+a {font-family: var(--g-text-header-font-family) !important;}
+span {p {font-family: var(--g-text-header-font-family) !important;}}
 .g-root {
     --g-border-radius-xs: 10px;
     --g-border-radius-s: 12px;

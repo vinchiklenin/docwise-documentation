@@ -1,5 +1,5 @@
-title: Шаблон Документации
-description: Шаблон Документации - напишите документацию для ваших пользователей
+title: Доквайс
+description: Документация для пользователй и разработчиков
 meta:
   title: Метаданные
   noIndex: true
@@ -10,3 +10,41 @@ links:
 - title: Правила
   description: Описание платформы, ее основные возможности, особенности и преимущества.
   href: rules.md
+
+blocks:
+  - type: header-block
+    width: xs
+    offset: default
+    title: Доквайс
+    resetPaddings: true
+    verticalOffset: l
+    description: |-
+      Доквайс — сервис для распознования бухгалтерских документов
+    background:
+      image:
+        src: ../_assets/images/back.png
+        disableCompress: true
+  - type: card-layout-block
+    description: Документация для пользователй и разработчиков
+    children:
+      - type: basic-card
+        title: О сервисе
+        text: <a href='#'>О сервисе</a>
+  
+      - type: basic-card
+        title: Работа с интерфейсом
+        text: <a>Сканирование</a> <br><a>Правка файлов</a> <br><a>Сохранение результатов</a>
+      - type: basic-card
+        title: Работа в CLI
+        text: <a>Запуск</a> <br>
+      - type: basic-card
+        title: API
+        text: <a>API сканирования</a> <br><a>API для входа</a> <br>
+      - type: basic-card
+        title: Развертывание сервиса в интранете
+        text: <a>---</a> <br>
+      - type: basic-card
+        title: Для разработчиков
+        text: <a>Доступ к репозиториям с исходным кодом</a>
+animated: true
+
