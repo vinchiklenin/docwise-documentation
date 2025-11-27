@@ -19,5 +19,8 @@ docs-viewer:
   project-name: Документация сервиса ДокВайс
   logo-options:
     title: ДокВайс
+extensions:
+    - github-vcs
+
 
 
