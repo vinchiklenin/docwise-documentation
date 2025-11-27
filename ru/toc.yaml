@@ -35,6 +35,8 @@ items:
     include:
       path: gui/toc.yaml
       mode: link
+  - name: JSON
+    href: json.md
   - name: Полезные ссылки
     href: links.md
   - name: Помощь
