@@ -5,9 +5,10 @@ langs: ['ru']
 vcs: true
 authors: true
 contributors: true
-interface:
-  favicon-src:  _assets/images/favicon.ico
-authors: true
+authors:
+  enabled: true
+  ignore:
+    - robot-*
 resources:
   style:
     - _assets/style/custom.css
