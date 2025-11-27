@@ -3,6 +3,7 @@ allowCustomResources: true
 lang: 'ru'
 langs: ['ru']
 vcs: true
+contributors: true
 authors:
   enabled: true
   ignore:
