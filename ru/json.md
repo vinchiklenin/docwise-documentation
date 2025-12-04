@@ -42,7 +42,7 @@
                         "subtotal": "number",
                         "sum-excise": "number",
                         "tax_rate": "string",
-                        "tax-sum": "number",
+                        "tax_sum": "number",
                         "subtotal_with_tax": "number",
                         "origin_country_code": "number",
                         "origin_country_name": "string",
@@ -90,7 +90,7 @@
 | `subtotal`                   | `number`   | Стоимость товаров без налога              |
 | `sum-excise`                 | `number`   | В том числе сумма акциза                  |
 | `tax_rate`                   | `string`   | Налоговая ставка                          |
-| `tax-sum`                    | `number`   | Сумма налога для покупателя               |
+| `tax_sum`                    | `number`   | Сумма налога для покупателя               |
 | `subtotal_with_tax`          | `number`   | Стоимость товаров с налогом               |
 | `origin_country_code`        | `number`   | Код страны происхождения                  |
 | `origin_country_name`        | `string`   | Краткое наименование страны происхождения |
@@ -140,7 +140,7 @@
             "subtotal": 58258.95,
             "sum-excise": null,
             "tax_rate": "18%",
-            "tax-sum": 10486.61,
+            "tax_sum": 10486.61,
             "subtotal_with_tax": 6264.88,
             "origin_country_cod": 384,
             "origin_country_name": "КОТ Д'ИВУАР",
@@ -155,7 +155,7 @@
             "subtotal": 58258.95,
             "sum-excise": null,
             "tax_rate": "18%",
-            "tax-sum": 10486.61,
+            "tax_sum": 10486.61,
             "subtotal_with_tax": 6264.88,
             "origin_country_cod": 384,
             "origin_country_name": "КОТ Д'ИВУАР",
