@@ -16,6 +16,10 @@ h6 {
 }
 p {font-family: var(--g-text-header-font-family) !important;}
 a {font-family: var(--g-text-header-font-family) !important;}
+th {font-family: var(--g-text-header-font-family) !important;}
+td  {font-family: var(--g-text-header-font-family) !important;}
+a {font-family: var(--g-text-header-font-family) !important;}
+
 span {p {font-family: var(--g-text-header-font-family) !important;}}
 .g-root {
     --g-border-radius-xs: 10px;
